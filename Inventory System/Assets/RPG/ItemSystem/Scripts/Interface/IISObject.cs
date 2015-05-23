@@ -1,7 +1,10 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public interface IISObject {
+namespace RPG.ItemSystem
+{
+	public interface IISObject 
+	{
 	string ISName { get; set; }
 	int ISValue { get; set; }
 	Sprite ISIcon { get; set; }
@@ -14,4 +17,5 @@ public interface IISObject {
 	//durability
 	//takedamage
 	//prefab
+	}
 }
