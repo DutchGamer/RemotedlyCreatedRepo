@@ -7,6 +7,6 @@ namespace RPG.ItemSystem
     public class ISQualityDatabase : ScriptableObject 
 	{
 		//[SerializeField]
-		List<ISQuality> db = new List<ISQuality> ();
+		public List<ISQuality> db = new List<ISQuality> ();
     }
 }

@@ -36,5 +36,14 @@ namespace RPG.ItemSystem.Editor
 				AssetDatabase.Refresh();
 		    }
 		}
+		void OnGUI()
+		{
+			AddQualityToDatabase ();
+		}
+
+		void AddQualityToDatabase()
+		{
+
+	    }
 	}
 }
